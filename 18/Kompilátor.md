@@ -31,7 +31,7 @@
 	- **Optimalizátor**: úprava mezikódu, odstranění cyklyckého přižazení či mrtvých větví kódu, kombinace, nahrazení volané funkce jejím obsahem, ...
 	- **Generátor kódu**: poslední fáze, kdy se z mezikodu generuje finální spustitelný kód pro danou architekutru, nejčastěji je výstup ve strojovém jazyce
 
- ![Příklad přechodového grafu KA](./compiler.png)
+ ![Jednotlivé kroky kompilátoru](./compiler.png)
 
 ### 3. Porovnání s ostatními přístupy
 
