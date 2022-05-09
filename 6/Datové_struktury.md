@@ -3,6 +3,7 @@
 - možnost zacházet s množinami vícero způsoby, reprezentace v paměti počítače
 - strukturu volíme tedy v závislosti na použití
 - liší se rychlostí práce s daty, nebo paměťovou náročností
+- oproti datovým typům se struktury liší tím, že datová struktura už je konkrétní implementace abstraktních datových typů (onecný model datové struktury) a datový typ je konkrétní typ data reprezentovaného daným jazykem (int, float, double, ...)
 
 ### 1. Klasifikace
 

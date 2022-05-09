@@ -8,13 +8,22 @@
 
 ### 2. Vícevrstvá architektura aplikací
 
-- aplikace, jež využívají vícebrstvou architekturu, jsou diverzifikované a netvoří celistvý program
+- aplikace, jež využívají vícebrstvou architekturu, jsou diverzifikované a netvoří celistvý program (monolitické programy)
 - vícero spolupracujících pater
 - příkladem může být internetový obchod, první patro je user interface, druhé patro tvoří vebový server a data, která jsou uložena v databázi, což je vrstva třetí
 - nejznámější je třívrstvá
-	- prezentační
-	- aplikační
-	- datová
+	- prezentační (grafické rozharnní, práce se vstupy a výstupy)
+	- aplikační (funkce, práce s daty, jejich zpraování)
+	- datová (webová služba, souborový systém)
+- **MVC**: neboli Model-View-controller, model je reprezentnat datového patra, view je uživatelské rozhranní, controller je ovladač, hlavní jednotka, MVC je navrhnuto tak, aby modifikace měla minimální vliv na ostatní
+- **MVP**: Model-View-Presenter, presenter je middle-man mezi modelem a uživatelskym rozhranním
+- další: Model-view-viewmodel
+
+![MVC](./mvc.png)
+
+![MVP](./mvp.png)
+
+
 
 ### 3. Návrhové vzory
 
