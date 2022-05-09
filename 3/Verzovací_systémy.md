@@ -34,7 +34,7 @@
 - kryptografická autentizace commitů
 - toolkit, řada programů pro správu repo
 - používání:
-	1. git init
-	2. git add .
-	3. git commit -m "message"
-	4. git push -u origin main (origin je kam a main je branch)
+	1. `git init`
+	2. `git add .`
+	3. `git commit -m "message"`
+	4. `git push -u origin main` (origin je kam a main je branch)
