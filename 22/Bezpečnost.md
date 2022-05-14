@@ -29,7 +29,7 @@
 	- inkrementální zálohy
 	- deduplikaci dat
 	- účinný ve využívání prostoru, komprese dat
-	- SHA-256 data enkrypce
+	- AES-256 data enkrypce
 	- komprese *lz4*
 	- open-source
 - *rsync*:
